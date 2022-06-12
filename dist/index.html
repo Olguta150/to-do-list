@@ -9,6 +9,35 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <div class="main">To-Do App</div>
+    <div class="container">
+        <header class="container-header">
+            <img class="to-do-header-icon" src="../src/icons/to-do-list.png" alt="to-do-icon">
+            TO-DO
+        </header>
+        <div class="container-menu">
+            <div class="menu-option">
+                <img class="menu-icon" src="../src/icons/inbox.png" alt="inbox-icon">
+                All tasks
+            </div>
+            <div class="menu-option">
+                <img class="menu-icon" src="../src/icons/calendar.png" alt="calendar-icon">
+                Today
+            </div>
+            <div class="menu-option">
+                <img class="menu-icon" src="../src/icons/notes.png" alt="notes-icon">
+                Notes
+            </div>
+            <div class="menu-option-project-container">
+                <div class="menu-option menu-option-project-title">
+                    Projects
+                </div>
+                <div class="menu-option-project-list"></div>
+            </div>
+            <div class="add-new-project-btn add-button"></div>
+        </div>
+        <div class="container-page">
+            <div class="add-new-task add-button"></div>
+        </div>
+    </div>
 </body>
 </html>
