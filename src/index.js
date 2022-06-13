@@ -1,1 +1,3 @@
-import _ from 'lodash';
+import { addNewProjectPopUp } from "./eventListeners";
+
+addNewProjectPopUp();
