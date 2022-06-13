@@ -21,6 +21,8 @@ body {
     box-shadow: 3px 3px 5px #c4dfe6;
 }
 
+/* ---------------------- HEADER STYLE ---------------------- */
+
 .container-header {
     grid-column: 1/3;
     background: #66a5ad;
@@ -35,6 +37,15 @@ body {
     width: 50px;
     height: 50px;
 }
+
+/* ---------------------- HEADER STYLE ---------------------- */
+
+
+
+
+
+
+/* ---------------------- MENU STYLE ---------------------- */
 
 .container-menu {
     background: #c4dfe6;
@@ -121,6 +132,72 @@ body {
     right: 30px;
 }
 
+/* ---------------------- MENU STYLE ---------------------- */
+
+
+
+
+
+/* ---------------------- PAGE STYLE ---------------------- */
+
 .container-page {
     background: rgb(255, 255, 255);
 }
+
+/* ---------------------- ADD NEW PROJECT ---------------------- */
+
+
+.dark-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.new-project-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+    background:#66a5ad;
+    width: 450px;
+    height: 170px;
+    box-shadow: 3px 3px 5px #c4dfe6;
+}
+
+.new-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.new-field input {
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.new-btns {
+    display: flex;
+    gap: 50px;
+}
+
+.project-btn {
+    font-size: 18px;
+    width: 90px;
+    height: 35px;
+    padding: 5px;
+}
+
+/* ---------------------- ADD NEW PROJECT ---------------------- */
+
+
+
+
+/* ---------------------- PAGE STYLE ---------------------- */
