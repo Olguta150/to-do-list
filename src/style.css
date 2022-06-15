@@ -91,31 +91,9 @@ body {
     border-radius: 50%;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
     background: #66a5ad;
+    border: none;
+    font-size: 40px;
     transition: transform 0.3s;
-}
-
-.add-button::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
-    -webkit-transform: translate(-50%);
-    width: 25px;
-    height: 4px;
-    background: #000;
-}
-
-.add-button::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 17.5px;
-    transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    width: 25px;
-    height: 4px;
-    background: #000;
 }
 
 .add-button:hover {
@@ -125,7 +103,7 @@ body {
 .add-new-project-btn {
     bottom: 30px;
     left: 230px;
-}
+} 
 
 .add-new-task {
     bottom: 30px;
@@ -169,7 +147,7 @@ body {
     background:#66a5ad;
     width: 450px;
     height: 170px;
-    box-shadow: 3px 3px 5px #c4dfe6;
+    box-shadow: 3px 3px 5px #5b7f87;
 }
 
 .new-field {
@@ -179,8 +157,14 @@ body {
 }
 
 .new-field input {
+    border: none;
+    box-shadow: 3px 3px 5px #35707f;
     padding: 5px 10px;
     font-size: 18px;
+}
+
+.new-field input:focus {
+    outline: 2px solid #0d5059;
 }
 
 .new-btns {
@@ -193,6 +177,13 @@ body {
     width: 90px;
     height: 35px;
     padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #35707f;
+}
+
+.project-btn:hover {
+    box-shadow: 3px 3px 5px #35707f;
+    cursor: pointer;
 }
 
 /* ---------------------- ADD NEW PROJECT ---------------------- */
