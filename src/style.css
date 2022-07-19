@@ -189,7 +189,7 @@ body {
 
 /* ---------------------- ADD NEW PROJECT ---------------------- */
 
-.container-form-project {
+.container-form-project, .container-form-task {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -211,7 +211,8 @@ body {
     background:#66a5ad;
     width: 450px;
     height: 170px;
-    box-shadow: 3px 3px 5px #c4dfe6;
+    /* box-shadow: 3px 3px 5px #c4dfe6; */
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
 }
 
 .form-project .form-message {
@@ -231,6 +232,13 @@ body {
 .form-details input {
     padding: 5px 10px;
     font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: none;
+}
+
+.form-details input:focus {
+    outline: none;
 }
 
 .btns {
@@ -243,6 +251,47 @@ body {
     width: 90px;
     height: 35px;
     padding: 5px;
+}
+
+.form-task {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    transform: translate(-50%, -50%);
+    background:#66a5ad;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.form-task div {
+    display: flex;
+    gap: 15px;
+    padding: 0 50px 15px;
+    font-size: 21px;
+}
+
+.form-task > div > input {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: none;
+    font-size: 18px;
+}
+
+.form-task > div > input:focus {
+    outline: none;
+}
+
+.form-task .task-btns {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.form-task .task-btns .task-button {
+    padding: 7px 0;
+    width: 90px;
 }
 
 /* ---------------------- ADD NEW PROJECT ---------------------- */
