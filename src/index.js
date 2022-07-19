@@ -1,3 +1,3 @@
-import { addNewProjectPopUp } from "./eventListeners";
+import { eventsDOM } from "./DOM";
 
-addNewProjectPopUp();
+eventsDOM();
